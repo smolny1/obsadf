@@ -1,0 +1,6 @@
+{
+	"name": "aostestdatafactory-runtime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
