@@ -1,0 +1,21 @@
+{
+	"name": "cod_sql_linked_azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"connectVia": {
+			"referenceName": "aostestdatafactory-runtime",
+			"type": "IntegrationRuntimeReference"
+		},
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"servicePrincipalId": "c422f08a-15b7-410e-bbb9-270eb505c5f6",
+			"tenant": "100b3c99-f3e2-4da0-9c8a-b9d345742c36",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MjQ4ODFjMi0xODRkLTQ1NWMtYTczOS0xYmJmNzhhNmYyNWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"annotations": []
+	}
+}
